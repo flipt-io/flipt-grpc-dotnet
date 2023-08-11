@@ -1,0 +1,7 @@
+# buf.gen.yaml
+version: v1
+plugins:
+  - plugin: buf.build/protocolbuffers/csharp:v23.4
+    out: src/Flipt
+  - plugin: buf.build/grpc/csharp:v1.56.2
+    out: src/Flipt.Grpc
