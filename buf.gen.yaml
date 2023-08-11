@@ -5,3 +5,4 @@ plugins:
     out: src/Flipt
   - plugin: buf.build/grpc/csharp:v1.56.2
     out: src/Flipt.Grpc
+    opt: no_server=true

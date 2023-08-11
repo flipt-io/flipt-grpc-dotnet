@@ -72,24 +72,6 @@ namespace Flipt.Meta {
       get { return global::Flipt.Meta.MetaReflection.Descriptor.Services[0]; }
     }
 
-    /// <summary>Base class for server-side implementations of MetadataService</summary>
-    [grpc::BindServiceMethod(typeof(MetadataService), "BindService")]
-    public abstract partial class MetadataServiceBase
-    {
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::Google.Api.HttpBody> GetConfiguration(global::Google.Protobuf.WellKnownTypes.Empty request, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::Google.Api.HttpBody> GetInfo(global::Google.Protobuf.WellKnownTypes.Empty request, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
-    }
-
     /// <summary>Client for MetadataService</summary>
     public partial class MetadataServiceClient : grpc::ClientBase<MetadataServiceClient>
     {
@@ -163,27 +145,6 @@ namespace Flipt.Meta {
       {
         return new MetadataServiceClient(configuration);
       }
-    }
-
-    /// <summary>Creates service definition that can be registered with a server</summary>
-    /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    public static grpc::ServerServiceDefinition BindService(MetadataServiceBase serviceImpl)
-    {
-      return grpc::ServerServiceDefinition.CreateBuilder()
-          .AddMethod(__Method_GetConfiguration, serviceImpl.GetConfiguration)
-          .AddMethod(__Method_GetInfo, serviceImpl.GetInfo).Build();
-    }
-
-    /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
-    /// Note: this method is part of an experimental API that can change or be removed without any prior notice.</summary>
-    /// <param name="serviceBinder">Service methods will be bound by calling <c>AddMethod</c> on this object.</param>
-    /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    public static void BindService(grpc::ServiceBinderBase serviceBinder, MetadataServiceBase serviceImpl)
-    {
-      serviceBinder.AddMethod(__Method_GetConfiguration, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Google.Protobuf.WellKnownTypes.Empty, global::Google.Api.HttpBody>(serviceImpl.GetConfiguration));
-      serviceBinder.AddMethod(__Method_GetInfo, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Google.Protobuf.WellKnownTypes.Empty, global::Google.Api.HttpBody>(serviceImpl.GetInfo));
     }
 
   }

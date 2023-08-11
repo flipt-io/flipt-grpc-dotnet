@@ -64,18 +64,6 @@ namespace Flipt.Auth {
       get { return global::Flipt.Auth.AuthReflection.Descriptor.Services[0]; }
     }
 
-    /// <summary>Base class for server-side implementations of PublicAuthenticationService</summary>
-    [grpc::BindServiceMethod(typeof(PublicAuthenticationService), "BindService")]
-    public abstract partial class PublicAuthenticationServiceBase
-    {
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::Flipt.Auth.ListAuthenticationMethodsResponse> ListAuthenticationMethods(global::Google.Protobuf.WellKnownTypes.Empty request, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
-    }
-
     /// <summary>Client for PublicAuthenticationService</summary>
     public partial class PublicAuthenticationServiceClient : grpc::ClientBase<PublicAuthenticationServiceClient>
     {
@@ -129,25 +117,6 @@ namespace Flipt.Auth {
       {
         return new PublicAuthenticationServiceClient(configuration);
       }
-    }
-
-    /// <summary>Creates service definition that can be registered with a server</summary>
-    /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    public static grpc::ServerServiceDefinition BindService(PublicAuthenticationServiceBase serviceImpl)
-    {
-      return grpc::ServerServiceDefinition.CreateBuilder()
-          .AddMethod(__Method_ListAuthenticationMethods, serviceImpl.ListAuthenticationMethods).Build();
-    }
-
-    /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
-    /// Note: this method is part of an experimental API that can change or be removed without any prior notice.</summary>
-    /// <param name="serviceBinder">Service methods will be bound by calling <c>AddMethod</c> on this object.</param>
-    /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    public static void BindService(grpc::ServiceBinderBase serviceBinder, PublicAuthenticationServiceBase serviceImpl)
-    {
-      serviceBinder.AddMethod(__Method_ListAuthenticationMethods, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Google.Protobuf.WellKnownTypes.Empty, global::Flipt.Auth.ListAuthenticationMethodsResponse>(serviceImpl.ListAuthenticationMethods));
     }
 
   }
@@ -247,42 +216,6 @@ namespace Flipt.Auth {
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
     {
       get { return global::Flipt.Auth.AuthReflection.Descriptor.Services[1]; }
-    }
-
-    /// <summary>Base class for server-side implementations of AuthenticationService</summary>
-    [grpc::BindServiceMethod(typeof(AuthenticationService), "BindService")]
-    public abstract partial class AuthenticationServiceBase
-    {
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::Flipt.Auth.Authentication> GetAuthenticationSelf(global::Google.Protobuf.WellKnownTypes.Empty request, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::Flipt.Auth.Authentication> GetAuthentication(global::Flipt.Auth.GetAuthenticationRequest request, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::Flipt.Auth.ListAuthenticationsResponse> ListAuthentications(global::Flipt.Auth.ListAuthenticationsRequest request, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::Google.Protobuf.WellKnownTypes.Empty> DeleteAuthentication(global::Flipt.Auth.DeleteAuthenticationRequest request, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::Google.Protobuf.WellKnownTypes.Empty> ExpireAuthenticationSelf(global::Flipt.Auth.ExpireAuthenticationSelfRequest request, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
     }
 
     /// <summary>Client for AuthenticationService</summary>
@@ -420,33 +353,6 @@ namespace Flipt.Auth {
       }
     }
 
-    /// <summary>Creates service definition that can be registered with a server</summary>
-    /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    public static grpc::ServerServiceDefinition BindService(AuthenticationServiceBase serviceImpl)
-    {
-      return grpc::ServerServiceDefinition.CreateBuilder()
-          .AddMethod(__Method_GetAuthenticationSelf, serviceImpl.GetAuthenticationSelf)
-          .AddMethod(__Method_GetAuthentication, serviceImpl.GetAuthentication)
-          .AddMethod(__Method_ListAuthentications, serviceImpl.ListAuthentications)
-          .AddMethod(__Method_DeleteAuthentication, serviceImpl.DeleteAuthentication)
-          .AddMethod(__Method_ExpireAuthenticationSelf, serviceImpl.ExpireAuthenticationSelf).Build();
-    }
-
-    /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
-    /// Note: this method is part of an experimental API that can change or be removed without any prior notice.</summary>
-    /// <param name="serviceBinder">Service methods will be bound by calling <c>AddMethod</c> on this object.</param>
-    /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    public static void BindService(grpc::ServiceBinderBase serviceBinder, AuthenticationServiceBase serviceImpl)
-    {
-      serviceBinder.AddMethod(__Method_GetAuthenticationSelf, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Google.Protobuf.WellKnownTypes.Empty, global::Flipt.Auth.Authentication>(serviceImpl.GetAuthenticationSelf));
-      serviceBinder.AddMethod(__Method_GetAuthentication, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Flipt.Auth.GetAuthenticationRequest, global::Flipt.Auth.Authentication>(serviceImpl.GetAuthentication));
-      serviceBinder.AddMethod(__Method_ListAuthentications, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Flipt.Auth.ListAuthenticationsRequest, global::Flipt.Auth.ListAuthenticationsResponse>(serviceImpl.ListAuthentications));
-      serviceBinder.AddMethod(__Method_DeleteAuthentication, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Flipt.Auth.DeleteAuthenticationRequest, global::Google.Protobuf.WellKnownTypes.Empty>(serviceImpl.DeleteAuthentication));
-      serviceBinder.AddMethod(__Method_ExpireAuthenticationSelf, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Flipt.Auth.ExpireAuthenticationSelfRequest, global::Google.Protobuf.WellKnownTypes.Empty>(serviceImpl.ExpireAuthenticationSelf));
-    }
-
   }
   public static partial class AuthenticationMethodTokenService
   {
@@ -504,18 +410,6 @@ namespace Flipt.Auth {
       get { return global::Flipt.Auth.AuthReflection.Descriptor.Services[2]; }
     }
 
-    /// <summary>Base class for server-side implementations of AuthenticationMethodTokenService</summary>
-    [grpc::BindServiceMethod(typeof(AuthenticationMethodTokenService), "BindService")]
-    public abstract partial class AuthenticationMethodTokenServiceBase
-    {
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::Flipt.Auth.CreateTokenResponse> CreateToken(global::Flipt.Auth.CreateTokenRequest request, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
-    }
-
     /// <summary>Client for AuthenticationMethodTokenService</summary>
     public partial class AuthenticationMethodTokenServiceClient : grpc::ClientBase<AuthenticationMethodTokenServiceClient>
     {
@@ -569,25 +463,6 @@ namespace Flipt.Auth {
       {
         return new AuthenticationMethodTokenServiceClient(configuration);
       }
-    }
-
-    /// <summary>Creates service definition that can be registered with a server</summary>
-    /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    public static grpc::ServerServiceDefinition BindService(AuthenticationMethodTokenServiceBase serviceImpl)
-    {
-      return grpc::ServerServiceDefinition.CreateBuilder()
-          .AddMethod(__Method_CreateToken, serviceImpl.CreateToken).Build();
-    }
-
-    /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
-    /// Note: this method is part of an experimental API that can change or be removed without any prior notice.</summary>
-    /// <param name="serviceBinder">Service methods will be bound by calling <c>AddMethod</c> on this object.</param>
-    /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    public static void BindService(grpc::ServiceBinderBase serviceBinder, AuthenticationMethodTokenServiceBase serviceImpl)
-    {
-      serviceBinder.AddMethod(__Method_CreateToken, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Flipt.Auth.CreateTokenRequest, global::Flipt.Auth.CreateTokenResponse>(serviceImpl.CreateToken));
     }
 
   }
@@ -657,24 +532,6 @@ namespace Flipt.Auth {
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
     {
       get { return global::Flipt.Auth.AuthReflection.Descriptor.Services[3]; }
-    }
-
-    /// <summary>Base class for server-side implementations of AuthenticationMethodOIDCService</summary>
-    [grpc::BindServiceMethod(typeof(AuthenticationMethodOIDCService), "BindService")]
-    public abstract partial class AuthenticationMethodOIDCServiceBase
-    {
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::Flipt.Auth.AuthorizeURLResponse> AuthorizeURL(global::Flipt.Auth.AuthorizeURLRequest request, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::Flipt.Auth.CallbackResponse> Callback(global::Flipt.Auth.CallbackRequest request, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
     }
 
     /// <summary>Client for AuthenticationMethodOIDCService</summary>
@@ -752,27 +609,6 @@ namespace Flipt.Auth {
       }
     }
 
-    /// <summary>Creates service definition that can be registered with a server</summary>
-    /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    public static grpc::ServerServiceDefinition BindService(AuthenticationMethodOIDCServiceBase serviceImpl)
-    {
-      return grpc::ServerServiceDefinition.CreateBuilder()
-          .AddMethod(__Method_AuthorizeURL, serviceImpl.AuthorizeURL)
-          .AddMethod(__Method_Callback, serviceImpl.Callback).Build();
-    }
-
-    /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
-    /// Note: this method is part of an experimental API that can change or be removed without any prior notice.</summary>
-    /// <param name="serviceBinder">Service methods will be bound by calling <c>AddMethod</c> on this object.</param>
-    /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    public static void BindService(grpc::ServiceBinderBase serviceBinder, AuthenticationMethodOIDCServiceBase serviceImpl)
-    {
-      serviceBinder.AddMethod(__Method_AuthorizeURL, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Flipt.Auth.AuthorizeURLRequest, global::Flipt.Auth.AuthorizeURLResponse>(serviceImpl.AuthorizeURL));
-      serviceBinder.AddMethod(__Method_Callback, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Flipt.Auth.CallbackRequest, global::Flipt.Auth.CallbackResponse>(serviceImpl.Callback));
-    }
-
   }
   public static partial class AuthenticationMethodKubernetesService
   {
@@ -830,18 +666,6 @@ namespace Flipt.Auth {
       get { return global::Flipt.Auth.AuthReflection.Descriptor.Services[4]; }
     }
 
-    /// <summary>Base class for server-side implementations of AuthenticationMethodKubernetesService</summary>
-    [grpc::BindServiceMethod(typeof(AuthenticationMethodKubernetesService), "BindService")]
-    public abstract partial class AuthenticationMethodKubernetesServiceBase
-    {
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::Flipt.Auth.VerifyServiceAccountResponse> VerifyServiceAccount(global::Flipt.Auth.VerifyServiceAccountRequest request, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
-    }
-
     /// <summary>Client for AuthenticationMethodKubernetesService</summary>
     public partial class AuthenticationMethodKubernetesServiceClient : grpc::ClientBase<AuthenticationMethodKubernetesServiceClient>
     {
@@ -895,25 +719,6 @@ namespace Flipt.Auth {
       {
         return new AuthenticationMethodKubernetesServiceClient(configuration);
       }
-    }
-
-    /// <summary>Creates service definition that can be registered with a server</summary>
-    /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    public static grpc::ServerServiceDefinition BindService(AuthenticationMethodKubernetesServiceBase serviceImpl)
-    {
-      return grpc::ServerServiceDefinition.CreateBuilder()
-          .AddMethod(__Method_VerifyServiceAccount, serviceImpl.VerifyServiceAccount).Build();
-    }
-
-    /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
-    /// Note: this method is part of an experimental API that can change or be removed without any prior notice.</summary>
-    /// <param name="serviceBinder">Service methods will be bound by calling <c>AddMethod</c> on this object.</param>
-    /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    public static void BindService(grpc::ServiceBinderBase serviceBinder, AuthenticationMethodKubernetesServiceBase serviceImpl)
-    {
-      serviceBinder.AddMethod(__Method_VerifyServiceAccount, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Flipt.Auth.VerifyServiceAccountRequest, global::Flipt.Auth.VerifyServiceAccountResponse>(serviceImpl.VerifyServiceAccount));
     }
 
   }

@@ -86,30 +86,6 @@ namespace Flipt.Evaluation {
       get { return global::Flipt.Evaluation.EvaluationReflection.Descriptor.Services[0]; }
     }
 
-    /// <summary>Base class for server-side implementations of EvaluationService</summary>
-    [grpc::BindServiceMethod(typeof(EvaluationService), "BindService")]
-    public abstract partial class EvaluationServiceBase
-    {
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::Flipt.Evaluation.BooleanEvaluationResponse> Boolean(global::Flipt.Evaluation.EvaluationRequest request, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::Flipt.Evaluation.VariantEvaluationResponse> Variant(global::Flipt.Evaluation.EvaluationRequest request, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::Flipt.Evaluation.BatchEvaluationResponse> Batch(global::Flipt.Evaluation.BatchEvaluationRequest request, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
-    }
-
     /// <summary>Client for EvaluationService</summary>
     public partial class EvaluationServiceClient : grpc::ClientBase<EvaluationServiceClient>
     {
@@ -203,29 +179,6 @@ namespace Flipt.Evaluation {
       {
         return new EvaluationServiceClient(configuration);
       }
-    }
-
-    /// <summary>Creates service definition that can be registered with a server</summary>
-    /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    public static grpc::ServerServiceDefinition BindService(EvaluationServiceBase serviceImpl)
-    {
-      return grpc::ServerServiceDefinition.CreateBuilder()
-          .AddMethod(__Method_Boolean, serviceImpl.Boolean)
-          .AddMethod(__Method_Variant, serviceImpl.Variant)
-          .AddMethod(__Method_Batch, serviceImpl.Batch).Build();
-    }
-
-    /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
-    /// Note: this method is part of an experimental API that can change or be removed without any prior notice.</summary>
-    /// <param name="serviceBinder">Service methods will be bound by calling <c>AddMethod</c> on this object.</param>
-    /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    public static void BindService(grpc::ServiceBinderBase serviceBinder, EvaluationServiceBase serviceImpl)
-    {
-      serviceBinder.AddMethod(__Method_Boolean, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Flipt.Evaluation.EvaluationRequest, global::Flipt.Evaluation.BooleanEvaluationResponse>(serviceImpl.Boolean));
-      serviceBinder.AddMethod(__Method_Variant, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Flipt.Evaluation.EvaluationRequest, global::Flipt.Evaluation.VariantEvaluationResponse>(serviceImpl.Variant));
-      serviceBinder.AddMethod(__Method_Batch, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Flipt.Evaluation.BatchEvaluationRequest, global::Flipt.Evaluation.BatchEvaluationResponse>(serviceImpl.Batch));
     }
 
   }
