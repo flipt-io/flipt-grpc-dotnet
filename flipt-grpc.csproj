@@ -1,7 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <RootNamespace>Flipt</RootNamespace>
     <PackageId>Flipt.gRPC</PackageId>
     <Version>0.0.1</Version>
     <Authors>Jeremy Caron, Flipt Devs (dev@flipt.io)</Authors>
