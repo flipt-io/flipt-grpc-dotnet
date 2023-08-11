@@ -7,11 +7,12 @@
     <Version>0.0.1</Version>
     <Authors>Jeremy Caron, Flipt Devs (dev@flipt.io)</Authors>
     <Company>Flipt.io</Company>
-    <License>MIT</License>
-    <PackageTags>Flipt;gRPC;Feature Flags</PackageTags>
     <Description>
       This package contains an auto-generated gRPC client for communication with a Flipt feature flag server (see flipt.io for more).
     </Description>
+    <License>MIT</License>
+    <PackageTags>Flipt, gRPC, Feature Flags</PackageTags>
+    <RepositoryUrl>https://github.com/flipt-io/flipt-grpc-dotnet</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
