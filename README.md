@@ -1,4 +1,4 @@
-# flipt-grpc-dotnet
+# Flipt gRPC .NET
 
 The official .NET [gRPC](https://grpc.io/) client for [Flipt](https://github.com/flipt-io/flipt).
 
