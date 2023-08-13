@@ -2,7 +2,7 @@
 version: v1
 plugins:
   - plugin: buf.build/protocolbuffers/csharp:v23.4
-    out: src/Flipt
+    out: src/Flipt.Grpc
   - plugin: buf.build/grpc/csharp:v1.56.2
     out: src/Flipt.Grpc
     opt: no_server=true
