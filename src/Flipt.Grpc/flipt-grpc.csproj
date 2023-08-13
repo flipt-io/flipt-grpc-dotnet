@@ -11,6 +11,7 @@
     <License>MIT</License>
     <PackageTags>Flipt, gRPC, Feature Flags</PackageTags>
     <RepositoryUrl>https://github.com/flipt-io/flipt-grpc-dotnet</RepositoryUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
