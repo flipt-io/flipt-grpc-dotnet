@@ -1,10 +1,15 @@
 # Flipt gRPC .NET
 
+![Nuget](https://img.shields.io/nuget/v/flipt.grpc)
+![beta](https://img.shields.io/badge/status-beta-yellow)
+
 The official .NET [gRPC](https://grpc.io/) client for [Flipt](https://github.com/flipt-io/flipt).
 
 ## Installation
 
-TODO
+```shell
+dotnet add package Flipt.gRPC --version 0.x.x
+```
 
 ## Usage Example
 
