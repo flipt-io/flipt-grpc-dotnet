@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/flipt-io/flipt-grpc-dotnet/compare/0.1.0...0.1.1) (2023-08-16)
+
+
+### Features
+
+* updates to protobuf definitions for flipt v1.25.0 ([#5](https://github.com/flipt-io/flipt-grpc-dotnet/issues/5)) ([cb6ada3](https://github.com/flipt-io/flipt-grpc-dotnet/commit/cb6ada380091330c71958f132d8eb82e9ef58f5e))
+
 ## 0.1.0 (2023-08-13)
 
 
