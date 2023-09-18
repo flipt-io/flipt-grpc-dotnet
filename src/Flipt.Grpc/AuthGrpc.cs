@@ -722,5 +722,149 @@ namespace Flipt.Auth {
     }
 
   }
+  public static partial class AuthenticationMethodGithubService
+  {
+    static readonly string __ServiceName = "flipt.auth.AuthenticationMethodGithubService";
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static void __Helper_SerializeMessage(global::Google.Protobuf.IMessage message, grpc::SerializationContext context)
+    {
+      #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
+      if (message is global::Google.Protobuf.IBufferMessage)
+      {
+        context.SetPayloadLength(message.CalculateSize());
+        global::Google.Protobuf.MessageExtensions.WriteTo(message, context.GetBufferWriter());
+        context.Complete();
+        return;
+      }
+      #endif
+      context.Complete(global::Google.Protobuf.MessageExtensions.ToByteArray(message));
+    }
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static class __Helper_MessageCache<T>
+    {
+      public static readonly bool IsBufferMessage = global::System.Reflection.IntrospectionExtensions.GetTypeInfo(typeof(global::Google.Protobuf.IBufferMessage)).IsAssignableFrom(typeof(T));
+    }
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static T __Helper_DeserializeMessage<T>(grpc::DeserializationContext context, global::Google.Protobuf.MessageParser<T> parser) where T : global::Google.Protobuf.IMessage<T>
+    {
+      #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
+      if (__Helper_MessageCache<T>.IsBufferMessage)
+      {
+        return parser.ParseFrom(context.PayloadAsReadOnlySequence());
+      }
+      #endif
+      return parser.ParseFrom(context.PayloadAsNewBuffer());
+    }
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Flipt.Auth.AuthorizeURLRequest> __Marshaller_flipt_auth_AuthorizeURLRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Flipt.Auth.AuthorizeURLRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Flipt.Auth.AuthorizeURLResponse> __Marshaller_flipt_auth_AuthorizeURLResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Flipt.Auth.AuthorizeURLResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Flipt.Auth.CallbackRequest> __Marshaller_flipt_auth_CallbackRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Flipt.Auth.CallbackRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Flipt.Auth.CallbackResponse> __Marshaller_flipt_auth_CallbackResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Flipt.Auth.CallbackResponse.Parser));
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Flipt.Auth.AuthorizeURLRequest, global::Flipt.Auth.AuthorizeURLResponse> __Method_AuthorizeURL = new grpc::Method<global::Flipt.Auth.AuthorizeURLRequest, global::Flipt.Auth.AuthorizeURLResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "AuthorizeURL",
+        __Marshaller_flipt_auth_AuthorizeURLRequest,
+        __Marshaller_flipt_auth_AuthorizeURLResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Flipt.Auth.CallbackRequest, global::Flipt.Auth.CallbackResponse> __Method_Callback = new grpc::Method<global::Flipt.Auth.CallbackRequest, global::Flipt.Auth.CallbackResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "Callback",
+        __Marshaller_flipt_auth_CallbackRequest,
+        __Marshaller_flipt_auth_CallbackResponse);
+
+    /// <summary>Service descriptor</summary>
+    public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
+    {
+      get { return global::Flipt.Auth.AuthReflection.Descriptor.Services[5]; }
+    }
+
+    /// <summary>Client for AuthenticationMethodGithubService</summary>
+    public partial class AuthenticationMethodGithubServiceClient : grpc::ClientBase<AuthenticationMethodGithubServiceClient>
+    {
+      /// <summary>Creates a new client for AuthenticationMethodGithubService</summary>
+      /// <param name="channel">The channel to use to make remote calls.</param>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public AuthenticationMethodGithubServiceClient(grpc::ChannelBase channel) : base(channel)
+      {
+      }
+      /// <summary>Creates a new client for AuthenticationMethodGithubService that uses a custom <c>CallInvoker</c>.</summary>
+      /// <param name="callInvoker">The callInvoker to use to make remote calls.</param>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public AuthenticationMethodGithubServiceClient(grpc::CallInvoker callInvoker) : base(callInvoker)
+      {
+      }
+      /// <summary>Protected parameterless constructor to allow creation of test doubles.</summary>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      protected AuthenticationMethodGithubServiceClient() : base()
+      {
+      }
+      /// <summary>Protected constructor to allow creation of configured clients.</summary>
+      /// <param name="configuration">The client configuration.</param>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      protected AuthenticationMethodGithubServiceClient(ClientBaseConfiguration configuration) : base(configuration)
+      {
+      }
+
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Flipt.Auth.AuthorizeURLResponse AuthorizeURL(global::Flipt.Auth.AuthorizeURLRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return AuthorizeURL(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Flipt.Auth.AuthorizeURLResponse AuthorizeURL(global::Flipt.Auth.AuthorizeURLRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_AuthorizeURL, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Flipt.Auth.AuthorizeURLResponse> AuthorizeURLAsync(global::Flipt.Auth.AuthorizeURLRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return AuthorizeURLAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Flipt.Auth.AuthorizeURLResponse> AuthorizeURLAsync(global::Flipt.Auth.AuthorizeURLRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_AuthorizeURL, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Flipt.Auth.CallbackResponse Callback(global::Flipt.Auth.CallbackRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return Callback(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Flipt.Auth.CallbackResponse Callback(global::Flipt.Auth.CallbackRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_Callback, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Flipt.Auth.CallbackResponse> CallbackAsync(global::Flipt.Auth.CallbackRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return CallbackAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Flipt.Auth.CallbackResponse> CallbackAsync(global::Flipt.Auth.CallbackRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_Callback, null, options, request);
+      }
+      /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      protected override AuthenticationMethodGithubServiceClient NewInstance(ClientBaseConfiguration configuration)
+      {
+        return new AuthenticationMethodGithubServiceClient(configuration);
+      }
+    }
+
+  }
 }
 #endregion
