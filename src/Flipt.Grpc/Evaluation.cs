@@ -46,41 +46,43 @@ namespace Flipt.Evaluation {
             "ZXNwb25zZRgDIAEoCzIrLmZsaXB0LmV2YWx1YXRpb24uVmFyaWFudEV2YWx1",
             "YXRpb25SZXNwb25zZUgAUg92YXJpYW50UmVzcG9uc2USUgoOZXJyb3JfcmVz",
             "cG9uc2UYBCABKAsyKS5mbGlwdC5ldmFsdWF0aW9uLkVycm9yRXZhbHVhdGlv",
-            "blJlc3BvbnNlSABSDWVycm9yUmVzcG9uc2VCCgoIcmVzcG9uc2UiggIKGUJv",
+            "blJlc3BvbnNlSABSDWVycm9yUmVzcG9uc2VCCgoIcmVzcG9uc2UinQIKGUJv",
             "b2xlYW5FdmFsdWF0aW9uUmVzcG9uc2USGAoHZW5hYmxlZBgBIAEoCFIHZW5h",
             "YmxlZBI6CgZyZWFzb24YAiABKA4yIi5mbGlwdC5ldmFsdWF0aW9uLkV2YWx1",
             "YXRpb25SZWFzb25SBnJlYXNvbhIdCgpyZXF1ZXN0X2lkGAMgASgJUglyZXF1",
             "ZXN0SWQSNgoXcmVxdWVzdF9kdXJhdGlvbl9taWxsaXMYBCABKAFSFXJlcXVl",
             "c3REdXJhdGlvbk1pbGxpcxI4Cgl0aW1lc3RhbXAYBSABKAsyGi5nb29nbGUu",
-            "cHJvdG9idWYuVGltZXN0YW1wUgl0aW1lc3RhbXAi8QIKGVZhcmlhbnRFdmFs",
-            "dWF0aW9uUmVzcG9uc2USFAoFbWF0Y2gYASABKAhSBW1hdGNoEiEKDHNlZ21l",
-            "bnRfa2V5cxgCIAMoCVILc2VnbWVudEtleXMSOgoGcmVhc29uGAMgASgOMiIu",
-            "ZmxpcHQuZXZhbHVhdGlvbi5FdmFsdWF0aW9uUmVhc29uUgZyZWFzb24SHwoL",
-            "dmFyaWFudF9rZXkYBCABKAlSCnZhcmlhbnRLZXkSLQoSdmFyaWFudF9hdHRh",
-            "Y2htZW50GAUgASgJUhF2YXJpYW50QXR0YWNobWVudBIdCgpyZXF1ZXN0X2lk",
-            "GAYgASgJUglyZXF1ZXN0SWQSNgoXcmVxdWVzdF9kdXJhdGlvbl9taWxsaXMY",
-            "ByABKAFSFXJlcXVlc3REdXJhdGlvbk1pbGxpcxI4Cgl0aW1lc3RhbXAYCCAB",
-            "KAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0YW1wUgl0aW1lc3RhbXAimgEK",
-            "F0Vycm9yRXZhbHVhdGlvblJlc3BvbnNlEhkKCGZsYWdfa2V5GAEgASgJUgdm",
-            "bGFnS2V5EiMKDW5hbWVzcGFjZV9rZXkYAiABKAlSDG5hbWVzcGFjZUtleRI/",
-            "CgZyZWFzb24YAyABKA4yJy5mbGlwdC5ldmFsdWF0aW9uLkVycm9yRXZhbHVh",
-            "dGlvblJlYXNvblIGcmVhc29uKpIBChBFdmFsdWF0aW9uUmVhc29uEh0KGVVO",
-            "S05PV05fRVZBTFVBVElPTl9SRUFTT04QABIjCh9GTEFHX0RJU0FCTEVEX0VW",
-            "QUxVQVRJT05fUkVBU09OEAESGwoXTUFUQ0hfRVZBTFVBVElPTl9SRUFTT04Q",
-            "AhIdChlERUZBVUxUX0VWQUxVQVRJT05fUkVBU09OEAMqYwoVRXJyb3JFdmFs",
-            "dWF0aW9uUmVhc29uEiMKH1VOS05PV05fRVJST1JfRVZBTFVBVElPTl9SRUFT",
-            "T04QABIlCiFOT1RfRk9VTkRfRVJST1JfRVZBTFVBVElPTl9SRUFTT04QASqI",
-            "AQoWRXZhbHVhdGlvblJlc3BvbnNlVHlwZRIkCiBWQVJJQU5UX0VWQUxVQVRJ",
-            "T05fUkVTUE9OU0VfVFlQRRAAEiQKIEJPT0xFQU5fRVZBTFVBVElPTl9SRVNQ",
-            "T05TRV9UWVBFEAESIgoeRVJST1JfRVZBTFVBVElPTl9SRVNQT05TRV9UWVBF",
-            "EAIysQIKEUV2YWx1YXRpb25TZXJ2aWNlEl0KB0Jvb2xlYW4SIy5mbGlwdC5l",
-            "dmFsdWF0aW9uLkV2YWx1YXRpb25SZXF1ZXN0GisuZmxpcHQuZXZhbHVhdGlv",
-            "bi5Cb29sZWFuRXZhbHVhdGlvblJlc3BvbnNlIgASXQoHVmFyaWFudBIjLmZs",
-            "aXB0LmV2YWx1YXRpb24uRXZhbHVhdGlvblJlcXVlc3QaKy5mbGlwdC5ldmFs",
-            "dWF0aW9uLlZhcmlhbnRFdmFsdWF0aW9uUmVzcG9uc2UiABJeCgVCYXRjaBIo",
-            "LmZsaXB0LmV2YWx1YXRpb24uQmF0Y2hFdmFsdWF0aW9uUmVxdWVzdBopLmZs",
-            "aXB0LmV2YWx1YXRpb24uQmF0Y2hFdmFsdWF0aW9uUmVzcG9uc2UiAEIoWiZn",
-            "by5mbGlwdC5pby9mbGlwdC9ycGMvZmxpcHQvZXZhbHVhdGlvbmIGcHJvdG8z"));
+            "cHJvdG9idWYuVGltZXN0YW1wUgl0aW1lc3RhbXASGQoIZmxhZ19rZXkYBiAB",
+            "KAlSB2ZsYWdLZXkijAMKGVZhcmlhbnRFdmFsdWF0aW9uUmVzcG9uc2USFAoF",
+            "bWF0Y2gYASABKAhSBW1hdGNoEiEKDHNlZ21lbnRfa2V5cxgCIAMoCVILc2Vn",
+            "bWVudEtleXMSOgoGcmVhc29uGAMgASgOMiIuZmxpcHQuZXZhbHVhdGlvbi5F",
+            "dmFsdWF0aW9uUmVhc29uUgZyZWFzb24SHwoLdmFyaWFudF9rZXkYBCABKAlS",
+            "CnZhcmlhbnRLZXkSLQoSdmFyaWFudF9hdHRhY2htZW50GAUgASgJUhF2YXJp",
+            "YW50QXR0YWNobWVudBIdCgpyZXF1ZXN0X2lkGAYgASgJUglyZXF1ZXN0SWQS",
+            "NgoXcmVxdWVzdF9kdXJhdGlvbl9taWxsaXMYByABKAFSFXJlcXVlc3REdXJh",
+            "dGlvbk1pbGxpcxI4Cgl0aW1lc3RhbXAYCCABKAsyGi5nb29nbGUucHJvdG9i",
+            "dWYuVGltZXN0YW1wUgl0aW1lc3RhbXASGQoIZmxhZ19rZXkYCSABKAlSB2Zs",
+            "YWdLZXkimgEKF0Vycm9yRXZhbHVhdGlvblJlc3BvbnNlEhkKCGZsYWdfa2V5",
+            "GAEgASgJUgdmbGFnS2V5EiMKDW5hbWVzcGFjZV9rZXkYAiABKAlSDG5hbWVz",
+            "cGFjZUtleRI/CgZyZWFzb24YAyABKA4yJy5mbGlwdC5ldmFsdWF0aW9uLkVy",
+            "cm9yRXZhbHVhdGlvblJlYXNvblIGcmVhc29uKpIBChBFdmFsdWF0aW9uUmVh",
+            "c29uEh0KGVVOS05PV05fRVZBTFVBVElPTl9SRUFTT04QABIjCh9GTEFHX0RJ",
+            "U0FCTEVEX0VWQUxVQVRJT05fUkVBU09OEAESGwoXTUFUQ0hfRVZBTFVBVElP",
+            "Tl9SRUFTT04QAhIdChlERUZBVUxUX0VWQUxVQVRJT05fUkVBU09OEAMqYwoV",
+            "RXJyb3JFdmFsdWF0aW9uUmVhc29uEiMKH1VOS05PV05fRVJST1JfRVZBTFVB",
+            "VElPTl9SRUFTT04QABIlCiFOT1RfRk9VTkRfRVJST1JfRVZBTFVBVElPTl9S",
+            "RUFTT04QASqIAQoWRXZhbHVhdGlvblJlc3BvbnNlVHlwZRIkCiBWQVJJQU5U",
+            "X0VWQUxVQVRJT05fUkVTUE9OU0VfVFlQRRAAEiQKIEJPT0xFQU5fRVZBTFVB",
+            "VElPTl9SRVNQT05TRV9UWVBFEAESIgoeRVJST1JfRVZBTFVBVElPTl9SRVNQ",
+            "T05TRV9UWVBFEAIysQIKEUV2YWx1YXRpb25TZXJ2aWNlEl0KB0Jvb2xlYW4S",
+            "Iy5mbGlwdC5ldmFsdWF0aW9uLkV2YWx1YXRpb25SZXF1ZXN0GisuZmxpcHQu",
+            "ZXZhbHVhdGlvbi5Cb29sZWFuRXZhbHVhdGlvblJlc3BvbnNlIgASXQoHVmFy",
+            "aWFudBIjLmZsaXB0LmV2YWx1YXRpb24uRXZhbHVhdGlvblJlcXVlc3QaKy5m",
+            "bGlwdC5ldmFsdWF0aW9uLlZhcmlhbnRFdmFsdWF0aW9uUmVzcG9uc2UiABJe",
+            "CgVCYXRjaBIoLmZsaXB0LmV2YWx1YXRpb24uQmF0Y2hFdmFsdWF0aW9uUmVx",
+            "dWVzdBopLmZsaXB0LmV2YWx1YXRpb24uQmF0Y2hFdmFsdWF0aW9uUmVzcG9u",
+            "c2UiAEIoWiZnby5mbGlwdC5pby9mbGlwdC9ycGMvZmxpcHQvZXZhbHVhdGlv",
+            "bmIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Flipt.Evaluation.EvaluationReason), typeof(global::Flipt.Evaluation.ErrorEvaluationReason), typeof(global::Flipt.Evaluation.EvaluationResponseType), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -88,8 +90,8 @@ namespace Flipt.Evaluation {
             new pbr::GeneratedClrTypeInfo(typeof(global::Flipt.Evaluation.BatchEvaluationRequest), global::Flipt.Evaluation.BatchEvaluationRequest.Parser, new[]{ "RequestId", "Requests" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Flipt.Evaluation.BatchEvaluationResponse), global::Flipt.Evaluation.BatchEvaluationResponse.Parser, new[]{ "RequestId", "Responses", "RequestDurationMillis" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Flipt.Evaluation.EvaluationResponse), global::Flipt.Evaluation.EvaluationResponse.Parser, new[]{ "Type", "BooleanResponse", "VariantResponse", "ErrorResponse" }, new[]{ "Response" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Flipt.Evaluation.BooleanEvaluationResponse), global::Flipt.Evaluation.BooleanEvaluationResponse.Parser, new[]{ "Enabled", "Reason", "RequestId", "RequestDurationMillis", "Timestamp" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Flipt.Evaluation.VariantEvaluationResponse), global::Flipt.Evaluation.VariantEvaluationResponse.Parser, new[]{ "Match", "SegmentKeys", "Reason", "VariantKey", "VariantAttachment", "RequestId", "RequestDurationMillis", "Timestamp" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Flipt.Evaluation.BooleanEvaluationResponse), global::Flipt.Evaluation.BooleanEvaluationResponse.Parser, new[]{ "Enabled", "Reason", "RequestId", "RequestDurationMillis", "Timestamp", "FlagKey" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Flipt.Evaluation.VariantEvaluationResponse), global::Flipt.Evaluation.VariantEvaluationResponse.Parser, new[]{ "Match", "SegmentKeys", "Reason", "VariantKey", "VariantAttachment", "RequestId", "RequestDurationMillis", "Timestamp", "FlagKey" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Flipt.Evaluation.ErrorEvaluationResponse), global::Flipt.Evaluation.ErrorEvaluationResponse.Parser, new[]{ "FlagKey", "NamespaceKey", "Reason" }, null, null, null, null)
           }));
     }
@@ -1325,6 +1327,7 @@ namespace Flipt.Evaluation {
       requestId_ = other.requestId_;
       requestDurationMillis_ = other.requestDurationMillis_;
       timestamp_ = other.timestamp_ != null ? other.timestamp_.Clone() : null;
+      flagKey_ = other.flagKey_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1394,6 +1397,18 @@ namespace Flipt.Evaluation {
       }
     }
 
+    /// <summary>Field number for the "flag_key" field.</summary>
+    public const int FlagKeyFieldNumber = 6;
+    private string flagKey_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string FlagKey {
+      get { return flagKey_; }
+      set {
+        flagKey_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -1414,6 +1429,7 @@ namespace Flipt.Evaluation {
       if (RequestId != other.RequestId) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(RequestDurationMillis, other.RequestDurationMillis)) return false;
       if (!object.Equals(Timestamp, other.Timestamp)) return false;
+      if (FlagKey != other.FlagKey) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1426,6 +1442,7 @@ namespace Flipt.Evaluation {
       if (RequestId.Length != 0) hash ^= RequestId.GetHashCode();
       if (RequestDurationMillis != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(RequestDurationMillis);
       if (timestamp_ != null) hash ^= Timestamp.GetHashCode();
+      if (FlagKey.Length != 0) hash ^= FlagKey.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1464,6 +1481,10 @@ namespace Flipt.Evaluation {
         output.WriteRawTag(42);
         output.WriteMessage(Timestamp);
       }
+      if (FlagKey.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(FlagKey);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1494,6 +1515,10 @@ namespace Flipt.Evaluation {
         output.WriteRawTag(42);
         output.WriteMessage(Timestamp);
       }
+      if (FlagKey.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(FlagKey);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1518,6 +1543,9 @@ namespace Flipt.Evaluation {
       }
       if (timestamp_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Timestamp);
+      }
+      if (FlagKey.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(FlagKey);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1548,6 +1576,9 @@ namespace Flipt.Evaluation {
           Timestamp = new global::Google.Protobuf.WellKnownTypes.Timestamp();
         }
         Timestamp.MergeFrom(other.Timestamp);
+      }
+      if (other.FlagKey.Length != 0) {
+        FlagKey = other.FlagKey;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1587,6 +1618,10 @@ namespace Flipt.Evaluation {
             input.ReadMessage(Timestamp);
             break;
           }
+          case 50: {
+            FlagKey = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -1623,6 +1658,10 @@ namespace Flipt.Evaluation {
               Timestamp = new global::Google.Protobuf.WellKnownTypes.Timestamp();
             }
             input.ReadMessage(Timestamp);
+            break;
+          }
+          case 50: {
+            FlagKey = input.ReadString();
             break;
           }
         }
@@ -1674,6 +1713,7 @@ namespace Flipt.Evaluation {
       requestId_ = other.requestId_;
       requestDurationMillis_ = other.requestDurationMillis_;
       timestamp_ = other.timestamp_ != null ? other.timestamp_.Clone() : null;
+      flagKey_ = other.flagKey_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1778,6 +1818,18 @@ namespace Flipt.Evaluation {
       }
     }
 
+    /// <summary>Field number for the "flag_key" field.</summary>
+    public const int FlagKeyFieldNumber = 9;
+    private string flagKey_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string FlagKey {
+      get { return flagKey_; }
+      set {
+        flagKey_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -1801,6 +1853,7 @@ namespace Flipt.Evaluation {
       if (RequestId != other.RequestId) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(RequestDurationMillis, other.RequestDurationMillis)) return false;
       if (!object.Equals(Timestamp, other.Timestamp)) return false;
+      if (FlagKey != other.FlagKey) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1816,6 +1869,7 @@ namespace Flipt.Evaluation {
       if (RequestId.Length != 0) hash ^= RequestId.GetHashCode();
       if (RequestDurationMillis != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(RequestDurationMillis);
       if (timestamp_ != null) hash ^= Timestamp.GetHashCode();
+      if (FlagKey.Length != 0) hash ^= FlagKey.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1863,6 +1917,10 @@ namespace Flipt.Evaluation {
         output.WriteRawTag(66);
         output.WriteMessage(Timestamp);
       }
+      if (FlagKey.Length != 0) {
+        output.WriteRawTag(74);
+        output.WriteString(FlagKey);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1902,6 +1960,10 @@ namespace Flipt.Evaluation {
         output.WriteRawTag(66);
         output.WriteMessage(Timestamp);
       }
+      if (FlagKey.Length != 0) {
+        output.WriteRawTag(74);
+        output.WriteString(FlagKey);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1933,6 +1995,9 @@ namespace Flipt.Evaluation {
       }
       if (timestamp_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Timestamp);
+      }
+      if (FlagKey.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(FlagKey);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1970,6 +2035,9 @@ namespace Flipt.Evaluation {
           Timestamp = new global::Google.Protobuf.WellKnownTypes.Timestamp();
         }
         Timestamp.MergeFrom(other.Timestamp);
+      }
+      if (other.FlagKey.Length != 0) {
+        FlagKey = other.FlagKey;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -2021,6 +2089,10 @@ namespace Flipt.Evaluation {
             input.ReadMessage(Timestamp);
             break;
           }
+          case 74: {
+            FlagKey = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -2069,6 +2141,10 @@ namespace Flipt.Evaluation {
               Timestamp = new global::Google.Protobuf.WellKnownTypes.Timestamp();
             }
             input.ReadMessage(Timestamp);
+            break;
+          }
+          case 74: {
+            FlagKey = input.ReadString();
             break;
           }
         }
