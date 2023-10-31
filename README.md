@@ -1,7 +1,7 @@
 # Flipt gRPC .NET
 
 ![Nuget](https://img.shields.io/nuget/v/flipt.grpc)
-![beta](https://img.shields.io/badge/status-beta-yellow)
+![hardening](https://img.shields.io/badge/status-hardening-orange)
 
 The official .NET [gRPC](https://grpc.io/) client for [Flipt](https://github.com/flipt-io/flipt).
 
