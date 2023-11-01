@@ -1,0 +1,41 @@
+name: Build and Push Nuget Package
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Release version to publish (e.g. 1.0.0)
+        required: true
+  release:
+    types: [released]
+
+permissions:
+  contents: read
+  packages: write
+
+jobs:
+  build:
+    name: Build + Push
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set VERSION variable from tag (Dispatch)
+        if: ${{ github.event_name == 'workflow_dispatch' }}
+        run: echo "VERSION=${{ inputs.tag }}" >> $GITHUB_ENV
+
+      - name: Set VERSION variable from release (Release)
+        if: ${{ github.event_name == 'release' }}
+        run: echo "VERSION=${{ github.ref_name }}" >> $GITHUB_ENV
+
+      - name: Build
+        run: dotnet build --configuration Release /p:Version=${VERSION}
+
+      - name: Test
+        run: dotnet test --configuration Release /p:Version=${VERSION} --no-build
+
+      - name: Pack
+        run: dotnet pack --configuration Release /p:Version=${VERSION} --no-build --output .
+
+      - name: Push
+        run: dotnet nuget push Flipt.gRPC.${VERSION}.nupkg --api-key ${{ secrets.NUGET_API_KEY }}
