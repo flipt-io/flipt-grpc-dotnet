@@ -28,7 +28,7 @@ jobs:
         if: ${{ github.event_name == 'release' }}
         run: echo "VERSION=${{ github.ref_name }}" >> $GITHUB_ENV
 
-      - run: cd ./src/Flipt\.gRPC
+      - run: cd ./src/Flipt\.Grpc
 
       - name: Build
         run: dotnet build --configuration Release /p:Version=${VERSION}
