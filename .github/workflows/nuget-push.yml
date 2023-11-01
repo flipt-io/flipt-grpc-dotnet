@@ -28,13 +28,11 @@ jobs:
         if: ${{ github.event_name == 'release' }}
         run: echo "VERSION=${{ github.ref_name }}" >> $GITHUB_ENV
 
-      - run: cd ./src/Flipt\.Grpc
-
       - name: Build
-        run: dotnet build --configuration Release /p:Version=${VERSION}
+        run: dotnet build --configuration Release /p:Version=${VERSION} --no-restore ./src/Flipt\.Grpc/flipt-grpc.csproj
 
       - name: Pack
-        run: dotnet pack --configuration Release /p:Version=${VERSION} --no-build --output .
+        run: dotnet pack --configuration Release /p:Version=${VERSION} --no-build --output . ./src/Flipt\.Grpc/flipt-grpc.csproj
 
       - name: Push
         run: dotnet nuget push Flipt.gRPC.${VERSION}.nupkg --api-key ${{ secrets.NUGET_API_KEY }}
