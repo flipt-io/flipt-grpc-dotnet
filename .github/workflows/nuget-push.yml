@@ -20,9 +20,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set VERSION variable from tag
+      - name: Set VERSION variable from tag (Dispatch)
         if: ${{ github.event_name == 'workflow_dispatch' }}
         run: echo "VERSION=${{ inputs.tag }}" >> $GITHUB_ENV
+
+      - name: Set VERSION variable from release (Release)
+        if: ${{ github.event_name == 'release' }}
+        run: echo "VERSION=${{ github.ref_name }}" >> $GITHUB_ENV
 
       - name: Build
         run: dotnet build --configuration Release /p:Version=${VERSION}
