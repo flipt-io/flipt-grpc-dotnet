@@ -29,7 +29,7 @@ jobs:
         run: echo "VERSION=${{ github.ref_name }}" >> $GITHUB_ENV
 
       - name: Build
-        run: dotnet build --configuration Release /p:Version=${VERSION} --no-restore ./src/Flipt\.Grpc/flipt-grpc.csproj
+        run: dotnet build --configuration Release /p:Version=${VERSION} ./src/Flipt\.Grpc/flipt-grpc.csproj
 
       - name: Pack
         run: dotnet pack --configuration Release /p:Version=${VERSION} --no-build --output . ./src/Flipt\.Grpc/flipt-grpc.csproj
