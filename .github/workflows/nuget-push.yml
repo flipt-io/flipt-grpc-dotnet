@@ -35,4 +35,4 @@ jobs:
         run: dotnet pack --configuration Release /p:Version=${VERSION} --no-build --output . ./src/Flipt\.Grpc/flipt-grpc.csproj
 
       - name: Push
-        run: dotnet nuget push "Flipt.gRPC.${VERSION}.nupkg" --api-key "${{ secrets.NUGET_API_TOKEN }}"
+        run: dotnet nuget push --api-key ${{ secrets.NUGET_API_TOKEN }} Flipt.gRPC.${VERSION}.nupkg
