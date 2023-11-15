@@ -491,41 +491,49 @@ namespace Flipt {
       {
       }
 
+      [global::System.ObsoleteAttribute]
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Flipt.EvaluationResponse Evaluate(global::Flipt.EvaluationRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return Evaluate(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
+      [global::System.ObsoleteAttribute]
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Flipt.EvaluationResponse Evaluate(global::Flipt.EvaluationRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_Evaluate, null, options, request);
       }
+      [global::System.ObsoleteAttribute]
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Flipt.EvaluationResponse> EvaluateAsync(global::Flipt.EvaluationRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return EvaluateAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
+      [global::System.ObsoleteAttribute]
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Flipt.EvaluationResponse> EvaluateAsync(global::Flipt.EvaluationRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_Evaluate, null, options, request);
       }
+      [global::System.ObsoleteAttribute]
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Flipt.BatchEvaluationResponse BatchEvaluate(global::Flipt.BatchEvaluationRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return BatchEvaluate(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
+      [global::System.ObsoleteAttribute]
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Flipt.BatchEvaluationResponse BatchEvaluate(global::Flipt.BatchEvaluationRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_BatchEvaluate, null, options, request);
       }
+      [global::System.ObsoleteAttribute]
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Flipt.BatchEvaluationResponse> BatchEvaluateAsync(global::Flipt.BatchEvaluationRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return BatchEvaluateAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
+      [global::System.ObsoleteAttribute]
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Flipt.BatchEvaluationResponse> BatchEvaluateAsync(global::Flipt.BatchEvaluationRequest request, grpc::CallOptions options)
       {

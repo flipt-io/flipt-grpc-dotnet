@@ -51,58 +51,58 @@ namespace Flipt.Auth {
             "bmV4dFBhZ2VUb2tlbiItChtEZWxldGVBdXRoZW50aWNhdGlvblJlcXVlc3QS",
             "DgoCaWQYASABKAlSAmlkInAKH0V4cGlyZUF1dGhlbnRpY2F0aW9uU2VsZlJl",
             "cXVlc3QSPgoKZXhwaXJlc19hdBgBIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5U",
-            "aW1lc3RhbXBIAFIJZXhwaXJlc0F0iAEBQg0KC19leHBpcmVzX2F0IoUBChJD",
+            "aW1lc3RhbXBIAFIJZXhwaXJlc0F0iAEBQg0KC19leHBpcmVzX2F0IqoBChJD",
             "cmVhdGVUb2tlblJlcXVlc3QSEgoEbmFtZRgBIAEoCVIEbmFtZRIgCgtkZXNj",
             "cmlwdGlvbhgCIAEoCVILZGVzY3JpcHRpb24SOQoKZXhwaXJlc19hdBgDIAEo",
-            "CzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXBSCWV4cGlyZXNBdCJ8ChND",
-            "cmVhdGVUb2tlblJlc3BvbnNlEiEKDGNsaWVudF90b2tlbhgBIAEoCVILY2xp",
-            "ZW50VG9rZW4SQgoOYXV0aGVudGljYXRpb24YAiABKAsyGi5mbGlwdC5hdXRo",
-            "LkF1dGhlbnRpY2F0aW9uUg5hdXRoZW50aWNhdGlvbiJHChNBdXRob3JpemVV",
-            "UkxSZXF1ZXN0EhoKCHByb3ZpZGVyGAEgASgJUghwcm92aWRlchIUCgVzdGF0",
-            "ZRgCIAEoCVIFc3RhdGUiOwoUQXV0aG9yaXplVVJMUmVzcG9uc2USIwoNYXV0",
-            "aG9yaXplX3VybBgBIAEoCVIMYXV0aG9yaXplVXJsIlcKD0NhbGxiYWNrUmVx",
-            "dWVzdBIaCghwcm92aWRlchgBIAEoCVIIcHJvdmlkZXISEgoEY29kZRgCIAEo",
-            "CVIEY29kZRIUCgVzdGF0ZRgDIAEoCVIFc3RhdGUieQoQQ2FsbGJhY2tSZXNw",
-            "b25zZRIhCgxjbGllbnRfdG9rZW4YASABKAlSC2NsaWVudFRva2VuEkIKDmF1",
-            "dGhlbnRpY2F0aW9uGAIgASgLMhouZmxpcHQuYXV0aC5BdXRoZW50aWNhdGlv",
-            "blIOYXV0aGVudGljYXRpb24iUQobVmVyaWZ5U2VydmljZUFjY291bnRSZXF1",
-            "ZXN0EjIKFXNlcnZpY2VfYWNjb3VudF90b2tlbhgBIAEoCVITc2VydmljZUFj",
-            "Y291bnRUb2tlbiKFAQocVmVyaWZ5U2VydmljZUFjY291bnRSZXNwb25zZRIh",
-            "CgxjbGllbnRfdG9rZW4YASABKAlSC2NsaWVudFRva2VuEkIKDmF1dGhlbnRp",
-            "Y2F0aW9uGAIgASgLMhouZmxpcHQuYXV0aC5BdXRoZW50aWNhdGlvblIOYXV0",
-            "aGVudGljYXRpb24qZgoGTWV0aG9kEg8KC01FVEhPRF9OT05FEAASEAoMTUVU",
-            "SE9EX1RPS0VOEAESDwoLTUVUSE9EX09JREMQAhIVChFNRVRIT0RfS1VCRVJO",
-            "RVRFUxADEhEKDU1FVEhPRF9HSVRIVUIQBDKDAQobUHVibGljQXV0aGVudGlj",
-            "YXRpb25TZXJ2aWNlEmQKGUxpc3RBdXRoZW50aWNhdGlvbk1ldGhvZHMSFi5n",
-            "b29nbGUucHJvdG9idWYuRW1wdHkaLS5mbGlwdC5hdXRoLkxpc3RBdXRoZW50",
-            "aWNhdGlvbk1ldGhvZHNSZXNwb25zZSIAMucDChVBdXRoZW50aWNhdGlvblNl",
-            "cnZpY2USTQoVR2V0QXV0aGVudGljYXRpb25TZWxmEhYuZ29vZ2xlLnByb3Rv",
-            "YnVmLkVtcHR5GhouZmxpcHQuYXV0aC5BdXRoZW50aWNhdGlvbiIAElcKEUdl",
-            "dEF1dGhlbnRpY2F0aW9uEiQuZmxpcHQuYXV0aC5HZXRBdXRoZW50aWNhdGlv",
-            "blJlcXVlc3QaGi5mbGlwdC5hdXRoLkF1dGhlbnRpY2F0aW9uIgASaAoTTGlz",
-            "dEF1dGhlbnRpY2F0aW9ucxImLmZsaXB0LmF1dGguTGlzdEF1dGhlbnRpY2F0",
-            "aW9uc1JlcXVlc3QaJy5mbGlwdC5hdXRoLkxpc3RBdXRoZW50aWNhdGlvbnNS",
-            "ZXNwb25zZSIAElkKFERlbGV0ZUF1dGhlbnRpY2F0aW9uEicuZmxpcHQuYXV0",
-            "aC5EZWxldGVBdXRoZW50aWNhdGlvblJlcXVlc3QaFi5nb29nbGUucHJvdG9i",
-            "dWYuRW1wdHkiABJhChhFeHBpcmVBdXRoZW50aWNhdGlvblNlbGYSKy5mbGlw",
-            "dC5hdXRoLkV4cGlyZUF1dGhlbnRpY2F0aW9uU2VsZlJlcXVlc3QaFi5nb29n",
-            "bGUucHJvdG9idWYuRW1wdHkiADJ0CiBBdXRoZW50aWNhdGlvbk1ldGhvZFRv",
-            "a2VuU2VydmljZRJQCgtDcmVhdGVUb2tlbhIeLmZsaXB0LmF1dGguQ3JlYXRl",
-            "VG9rZW5SZXF1ZXN0Gh8uZmxpcHQuYXV0aC5DcmVhdGVUb2tlblJlc3BvbnNl",
-            "IgAyvwEKH0F1dGhlbnRpY2F0aW9uTWV0aG9kT0lEQ1NlcnZpY2USUwoMQXV0",
-            "aG9yaXplVVJMEh8uZmxpcHQuYXV0aC5BdXRob3JpemVVUkxSZXF1ZXN0GiAu",
-            "ZmxpcHQuYXV0aC5BdXRob3JpemVVUkxSZXNwb25zZSIAEkcKCENhbGxiYWNr",
-            "EhsuZmxpcHQuYXV0aC5DYWxsYmFja1JlcXVlc3QaHC5mbGlwdC5hdXRoLkNh",
-            "bGxiYWNrUmVzcG9uc2UiADKUAQolQXV0aGVudGljYXRpb25NZXRob2RLdWJl",
-            "cm5ldGVzU2VydmljZRJrChRWZXJpZnlTZXJ2aWNlQWNjb3VudBInLmZsaXB0",
-            "LmF1dGguVmVyaWZ5U2VydmljZUFjY291bnRSZXF1ZXN0GiguZmxpcHQuYXV0",
-            "aC5WZXJpZnlTZXJ2aWNlQWNjb3VudFJlc3BvbnNlIgAywQEKIUF1dGhlbnRp",
-            "Y2F0aW9uTWV0aG9kR2l0aHViU2VydmljZRJTCgxBdXRob3JpemVVUkwSHy5m",
-            "bGlwdC5hdXRoLkF1dGhvcml6ZVVSTFJlcXVlc3QaIC5mbGlwdC5hdXRoLkF1",
-            "dGhvcml6ZVVSTFJlc3BvbnNlIgASRwoIQ2FsbGJhY2sSGy5mbGlwdC5hdXRo",
-            "LkNhbGxiYWNrUmVxdWVzdBocLmZsaXB0LmF1dGguQ2FsbGJhY2tSZXNwb25z",
-            "ZSIAQiJaIGdvLmZsaXB0LmlvL2ZsaXB0L3JwYy9mbGlwdC9hdXRoYgZwcm90",
-            "bzM="));
+            "CzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXBSCWV4cGlyZXNBdBIjCg1u",
+            "YW1lc3BhY2Vfa2V5GAQgASgJUgxuYW1lc3BhY2VLZXkifAoTQ3JlYXRlVG9r",
+            "ZW5SZXNwb25zZRIhCgxjbGllbnRfdG9rZW4YASABKAlSC2NsaWVudFRva2Vu",
+            "EkIKDmF1dGhlbnRpY2F0aW9uGAIgASgLMhouZmxpcHQuYXV0aC5BdXRoZW50",
+            "aWNhdGlvblIOYXV0aGVudGljYXRpb24iRwoTQXV0aG9yaXplVVJMUmVxdWVz",
+            "dBIaCghwcm92aWRlchgBIAEoCVIIcHJvdmlkZXISFAoFc3RhdGUYAiABKAlS",
+            "BXN0YXRlIjsKFEF1dGhvcml6ZVVSTFJlc3BvbnNlEiMKDWF1dGhvcml6ZV91",
+            "cmwYASABKAlSDGF1dGhvcml6ZVVybCJXCg9DYWxsYmFja1JlcXVlc3QSGgoI",
+            "cHJvdmlkZXIYASABKAlSCHByb3ZpZGVyEhIKBGNvZGUYAiABKAlSBGNvZGUS",
+            "FAoFc3RhdGUYAyABKAlSBXN0YXRlInkKEENhbGxiYWNrUmVzcG9uc2USIQoM",
+            "Y2xpZW50X3Rva2VuGAEgASgJUgtjbGllbnRUb2tlbhJCCg5hdXRoZW50aWNh",
+            "dGlvbhgCIAEoCzIaLmZsaXB0LmF1dGguQXV0aGVudGljYXRpb25SDmF1dGhl",
+            "bnRpY2F0aW9uIlEKG1ZlcmlmeVNlcnZpY2VBY2NvdW50UmVxdWVzdBIyChVz",
+            "ZXJ2aWNlX2FjY291bnRfdG9rZW4YASABKAlSE3NlcnZpY2VBY2NvdW50VG9r",
+            "ZW4ihQEKHFZlcmlmeVNlcnZpY2VBY2NvdW50UmVzcG9uc2USIQoMY2xpZW50",
+            "X3Rva2VuGAEgASgJUgtjbGllbnRUb2tlbhJCCg5hdXRoZW50aWNhdGlvbhgC",
+            "IAEoCzIaLmZsaXB0LmF1dGguQXV0aGVudGljYXRpb25SDmF1dGhlbnRpY2F0",
+            "aW9uKmYKBk1ldGhvZBIPCgtNRVRIT0RfTk9ORRAAEhAKDE1FVEhPRF9UT0tF",
+            "ThABEg8KC01FVEhPRF9PSURDEAISFQoRTUVUSE9EX0tVQkVSTkVURVMQAxIR",
+            "Cg1NRVRIT0RfR0lUSFVCEAQygwEKG1B1YmxpY0F1dGhlbnRpY2F0aW9uU2Vy",
+            "dmljZRJkChlMaXN0QXV0aGVudGljYXRpb25NZXRob2RzEhYuZ29vZ2xlLnBy",
+            "b3RvYnVmLkVtcHR5Gi0uZmxpcHQuYXV0aC5MaXN0QXV0aGVudGljYXRpb25N",
+            "ZXRob2RzUmVzcG9uc2UiADLnAwoVQXV0aGVudGljYXRpb25TZXJ2aWNlEk0K",
+            "FUdldEF1dGhlbnRpY2F0aW9uU2VsZhIWLmdvb2dsZS5wcm90b2J1Zi5FbXB0",
+            "eRoaLmZsaXB0LmF1dGguQXV0aGVudGljYXRpb24iABJXChFHZXRBdXRoZW50",
+            "aWNhdGlvbhIkLmZsaXB0LmF1dGguR2V0QXV0aGVudGljYXRpb25SZXF1ZXN0",
+            "GhouZmxpcHQuYXV0aC5BdXRoZW50aWNhdGlvbiIAEmgKE0xpc3RBdXRoZW50",
+            "aWNhdGlvbnMSJi5mbGlwdC5hdXRoLkxpc3RBdXRoZW50aWNhdGlvbnNSZXF1",
+            "ZXN0GicuZmxpcHQuYXV0aC5MaXN0QXV0aGVudGljYXRpb25zUmVzcG9uc2Ui",
+            "ABJZChREZWxldGVBdXRoZW50aWNhdGlvbhInLmZsaXB0LmF1dGguRGVsZXRl",
+            "QXV0aGVudGljYXRpb25SZXF1ZXN0GhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5",
+            "IgASYQoYRXhwaXJlQXV0aGVudGljYXRpb25TZWxmEisuZmxpcHQuYXV0aC5F",
+            "eHBpcmVBdXRoZW50aWNhdGlvblNlbGZSZXF1ZXN0GhYuZ29vZ2xlLnByb3Rv",
+            "YnVmLkVtcHR5IgAydAogQXV0aGVudGljYXRpb25NZXRob2RUb2tlblNlcnZp",
+            "Y2USUAoLQ3JlYXRlVG9rZW4SHi5mbGlwdC5hdXRoLkNyZWF0ZVRva2VuUmVx",
+            "dWVzdBofLmZsaXB0LmF1dGguQ3JlYXRlVG9rZW5SZXNwb25zZSIAMr8BCh9B",
+            "dXRoZW50aWNhdGlvbk1ldGhvZE9JRENTZXJ2aWNlElMKDEF1dGhvcml6ZVVS",
+            "TBIfLmZsaXB0LmF1dGguQXV0aG9yaXplVVJMUmVxdWVzdBogLmZsaXB0LmF1",
+            "dGguQXV0aG9yaXplVVJMUmVzcG9uc2UiABJHCghDYWxsYmFjaxIbLmZsaXB0",
+            "LmF1dGguQ2FsbGJhY2tSZXF1ZXN0GhwuZmxpcHQuYXV0aC5DYWxsYmFja1Jl",
+            "c3BvbnNlIgAylAEKJUF1dGhlbnRpY2F0aW9uTWV0aG9kS3ViZXJuZXRlc1Nl",
+            "cnZpY2USawoUVmVyaWZ5U2VydmljZUFjY291bnQSJy5mbGlwdC5hdXRoLlZl",
+            "cmlmeVNlcnZpY2VBY2NvdW50UmVxdWVzdBooLmZsaXB0LmF1dGguVmVyaWZ5",
+            "U2VydmljZUFjY291bnRSZXNwb25zZSIAMsEBCiFBdXRoZW50aWNhdGlvbk1l",
+            "dGhvZEdpdGh1YlNlcnZpY2USUwoMQXV0aG9yaXplVVJMEh8uZmxpcHQuYXV0",
+            "aC5BdXRob3JpemVVUkxSZXF1ZXN0GiAuZmxpcHQuYXV0aC5BdXRob3JpemVV",
+            "UkxSZXNwb25zZSIAEkcKCENhbGxiYWNrEhsuZmxpcHQuYXV0aC5DYWxsYmFj",
+            "a1JlcXVlc3QaHC5mbGlwdC5hdXRoLkNhbGxiYWNrUmVzcG9uc2UiAEIiWiBn",
+            "by5mbGlwdC5pby9mbGlwdC9ycGMvZmxpcHQvYXV0aGIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.StructReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Flipt.Auth.Method), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -114,7 +114,7 @@ namespace Flipt.Auth {
             new pbr::GeneratedClrTypeInfo(typeof(global::Flipt.Auth.ListAuthenticationsResponse), global::Flipt.Auth.ListAuthenticationsResponse.Parser, new[]{ "Authentications", "NextPageToken" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Flipt.Auth.DeleteAuthenticationRequest), global::Flipt.Auth.DeleteAuthenticationRequest.Parser, new[]{ "Id" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Flipt.Auth.ExpireAuthenticationSelfRequest), global::Flipt.Auth.ExpireAuthenticationSelfRequest.Parser, new[]{ "ExpiresAt" }, new[]{ "ExpiresAt" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Flipt.Auth.CreateTokenRequest), global::Flipt.Auth.CreateTokenRequest.Parser, new[]{ "Name", "Description", "ExpiresAt" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Flipt.Auth.CreateTokenRequest), global::Flipt.Auth.CreateTokenRequest.Parser, new[]{ "Name", "Description", "ExpiresAt", "NamespaceKey" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Flipt.Auth.CreateTokenResponse), global::Flipt.Auth.CreateTokenResponse.Parser, new[]{ "ClientToken", "Authentication" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Flipt.Auth.AuthorizeURLRequest), global::Flipt.Auth.AuthorizeURLRequest.Parser, new[]{ "Provider", "State" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Flipt.Auth.AuthorizeURLResponse), global::Flipt.Auth.AuthorizeURLResponse.Parser, new[]{ "AuthorizeUrl" }, null, null, null, null),
@@ -2107,6 +2107,7 @@ namespace Flipt.Auth {
       name_ = other.name_;
       description_ = other.description_;
       expiresAt_ = other.expiresAt_ != null ? other.expiresAt_.Clone() : null;
+      namespaceKey_ = other.namespaceKey_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2152,6 +2153,18 @@ namespace Flipt.Auth {
       }
     }
 
+    /// <summary>Field number for the "namespace_key" field.</summary>
+    public const int NamespaceKeyFieldNumber = 4;
+    private string namespaceKey_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string NamespaceKey {
+      get { return namespaceKey_; }
+      set {
+        namespaceKey_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -2170,6 +2183,7 @@ namespace Flipt.Auth {
       if (Name != other.Name) return false;
       if (Description != other.Description) return false;
       if (!object.Equals(ExpiresAt, other.ExpiresAt)) return false;
+      if (NamespaceKey != other.NamespaceKey) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2180,6 +2194,7 @@ namespace Flipt.Auth {
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (Description.Length != 0) hash ^= Description.GetHashCode();
       if (expiresAt_ != null) hash ^= ExpiresAt.GetHashCode();
+      if (NamespaceKey.Length != 0) hash ^= NamespaceKey.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2210,6 +2225,10 @@ namespace Flipt.Auth {
         output.WriteRawTag(26);
         output.WriteMessage(ExpiresAt);
       }
+      if (NamespaceKey.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(NamespaceKey);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2232,6 +2251,10 @@ namespace Flipt.Auth {
         output.WriteRawTag(26);
         output.WriteMessage(ExpiresAt);
       }
+      if (NamespaceKey.Length != 0) {
+        output.WriteRawTag(34);
+        output.WriteString(NamespaceKey);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -2250,6 +2273,9 @@ namespace Flipt.Auth {
       }
       if (expiresAt_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(ExpiresAt);
+      }
+      if (NamespaceKey.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(NamespaceKey);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -2274,6 +2300,9 @@ namespace Flipt.Auth {
           ExpiresAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
         }
         ExpiresAt.MergeFrom(other.ExpiresAt);
+      }
+      if (other.NamespaceKey.Length != 0) {
+        NamespaceKey = other.NamespaceKey;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -2305,6 +2334,10 @@ namespace Flipt.Auth {
             input.ReadMessage(ExpiresAt);
             break;
           }
+          case 34: {
+            NamespaceKey = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -2333,6 +2366,10 @@ namespace Flipt.Auth {
               ExpiresAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
             }
             input.ReadMessage(ExpiresAt);
+            break;
+          }
+          case 34: {
+            NamespaceKey = input.ReadString();
             break;
           }
         }
