@@ -182,5 +182,120 @@ namespace Flipt.Evaluation {
     }
 
   }
+  /// <summary>
+  /// flipt:sdk:ignore
+  /// </summary>
+  public static partial class DataService
+  {
+    static readonly string __ServiceName = "flipt.evaluation.DataService";
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static void __Helper_SerializeMessage(global::Google.Protobuf.IMessage message, grpc::SerializationContext context)
+    {
+      #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
+      if (message is global::Google.Protobuf.IBufferMessage)
+      {
+        context.SetPayloadLength(message.CalculateSize());
+        global::Google.Protobuf.MessageExtensions.WriteTo(message, context.GetBufferWriter());
+        context.Complete();
+        return;
+      }
+      #endif
+      context.Complete(global::Google.Protobuf.MessageExtensions.ToByteArray(message));
+    }
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static class __Helper_MessageCache<T>
+    {
+      public static readonly bool IsBufferMessage = global::System.Reflection.IntrospectionExtensions.GetTypeInfo(typeof(global::Google.Protobuf.IBufferMessage)).IsAssignableFrom(typeof(T));
+    }
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static T __Helper_DeserializeMessage<T>(grpc::DeserializationContext context, global::Google.Protobuf.MessageParser<T> parser) where T : global::Google.Protobuf.IMessage<T>
+    {
+      #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
+      if (__Helper_MessageCache<T>.IsBufferMessage)
+      {
+        return parser.ParseFrom(context.PayloadAsReadOnlySequence());
+      }
+      #endif
+      return parser.ParseFrom(context.PayloadAsNewBuffer());
+    }
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Flipt.Evaluation.EvaluationNamespaceSnapshotRequest> __Marshaller_flipt_evaluation_EvaluationNamespaceSnapshotRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Flipt.Evaluation.EvaluationNamespaceSnapshotRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Flipt.Evaluation.EvaluationNamespaceSnapshot> __Marshaller_flipt_evaluation_EvaluationNamespaceSnapshot = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Flipt.Evaluation.EvaluationNamespaceSnapshot.Parser));
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Flipt.Evaluation.EvaluationNamespaceSnapshotRequest, global::Flipt.Evaluation.EvaluationNamespaceSnapshot> __Method_EvaluationSnapshotNamespace = new grpc::Method<global::Flipt.Evaluation.EvaluationNamespaceSnapshotRequest, global::Flipt.Evaluation.EvaluationNamespaceSnapshot>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "EvaluationSnapshotNamespace",
+        __Marshaller_flipt_evaluation_EvaluationNamespaceSnapshotRequest,
+        __Marshaller_flipt_evaluation_EvaluationNamespaceSnapshot);
+
+    /// <summary>Service descriptor</summary>
+    public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
+    {
+      get { return global::Flipt.Evaluation.EvaluationReflection.Descriptor.Services[1]; }
+    }
+
+    /// <summary>Client for DataService</summary>
+    public partial class DataServiceClient : grpc::ClientBase<DataServiceClient>
+    {
+      /// <summary>Creates a new client for DataService</summary>
+      /// <param name="channel">The channel to use to make remote calls.</param>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public DataServiceClient(grpc::ChannelBase channel) : base(channel)
+      {
+      }
+      /// <summary>Creates a new client for DataService that uses a custom <c>CallInvoker</c>.</summary>
+      /// <param name="callInvoker">The callInvoker to use to make remote calls.</param>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public DataServiceClient(grpc::CallInvoker callInvoker) : base(callInvoker)
+      {
+      }
+      /// <summary>Protected parameterless constructor to allow creation of test doubles.</summary>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      protected DataServiceClient() : base()
+      {
+      }
+      /// <summary>Protected constructor to allow creation of configured clients.</summary>
+      /// <param name="configuration">The client configuration.</param>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      protected DataServiceClient(ClientBaseConfiguration configuration) : base(configuration)
+      {
+      }
+
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Flipt.Evaluation.EvaluationNamespaceSnapshot EvaluationSnapshotNamespace(global::Flipt.Evaluation.EvaluationNamespaceSnapshotRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return EvaluationSnapshotNamespace(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Flipt.Evaluation.EvaluationNamespaceSnapshot EvaluationSnapshotNamespace(global::Flipt.Evaluation.EvaluationNamespaceSnapshotRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_EvaluationSnapshotNamespace, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Flipt.Evaluation.EvaluationNamespaceSnapshot> EvaluationSnapshotNamespaceAsync(global::Flipt.Evaluation.EvaluationNamespaceSnapshotRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return EvaluationSnapshotNamespaceAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Flipt.Evaluation.EvaluationNamespaceSnapshot> EvaluationSnapshotNamespaceAsync(global::Flipt.Evaluation.EvaluationNamespaceSnapshotRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_EvaluationSnapshotNamespace, null, options, request);
+      }
+      /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      protected override DataServiceClient NewInstance(ClientBaseConfiguration configuration)
+      {
+        return new DataServiceClient(configuration);
+      }
+    }
+
+  }
 }
 #endregion
