@@ -18,13 +18,22 @@ using Grpc.Net.Client;
 using Flipt;
 
 var channel = GrpcChannel.ForAddress("http://localhost:9000");
-var client = new Flipt.Flipt.FliptClient(channel);
-var result = client.ListFlags(new Flipt.ListFlagRequest());
+var flipt= new Flipt.Evaluation.EvaluationService.EvaluationServiceClient(channel);
+var newHotFeature = new Flipt.Evaluation.EvaluationRequest {
+            NamespaceKey = "default",
+            FlagKey      = "NewHotFeature",
+            EntityId     = "entity",
+};
+newHotFeature.Context.Add("fizz", "buzz");
 
-System.Console.WriteLine("Available Flags:");
-foreach (var flag in result.Flags)
+
+if(flipt.Variant(newHotFeature).Match)
 {
-    System.Console.WriteLine(flag.Key);
+  //new code
+}
+else
+{
+  //old code
 }
 ```
 
