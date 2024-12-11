@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.3.0](https://github.com/flipt-io/flipt-grpc-dotnet/compare/0.2.0...0.3.0) (2024-12-11)
+
+
+### Features
+
+* updates to protobuf definitions for flipt v1.53.1 ([#57](https://github.com/flipt-io/flipt-grpc-dotnet/issues/57)) ([65b8274](https://github.com/flipt-io/flipt-grpc-dotnet/commit/65b82742274b8389f7460dc79d95b70c6148d112))
+
+
+### Bug Fixes
+
+* added missing gnostic definitions ([#55](https://github.com/flipt-io/flipt-grpc-dotnet/issues/55)) ([addc9f2](https://github.com/flipt-io/flipt-grpc-dotnet/commit/addc9f22735f8eeac499e0b8f1a57c6ae28822d4))
+
 ## [0.2.0](https://github.com/flipt-io/flipt-grpc-dotnet/compare/0.1.3...0.2.0) (2024-12-11)
 
 
