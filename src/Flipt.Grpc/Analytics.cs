@@ -24,19 +24,20 @@ namespace Flipt.Analytics {
     static AnalyticsReflection() {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
-            "ChlhbmFseXRpY3MvYW5hbHl0aWNzLnByb3RvEg9mbGlwdC5hbmFseXRpY3Mi",
-            "hAEKHkdldEZsYWdFdmFsdWF0aW9uc0NvdW50UmVxdWVzdBIjCg1uYW1lc3Bh",
-            "Y2Vfa2V5GAEgASgJUgxuYW1lc3BhY2VLZXkSGQoIZmxhZ19rZXkYAiABKAlS",
-            "B2ZsYWdLZXkSEgoEZnJvbRgDIAEoCVIEZnJvbRIOCgJ0bxgEIAEoCVICdG8i",
-            "WQofR2V0RmxhZ0V2YWx1YXRpb25zQ291bnRSZXNwb25zZRIeCgp0aW1lc3Rh",
-            "bXBzGAEgAygJUgp0aW1lc3RhbXBzEhYKBnZhbHVlcxgCIAMoAlIGdmFsdWVz",
-            "MpIBChBBbmFseXRpY3NTZXJ2aWNlEn4KF0dldEZsYWdFdmFsdWF0aW9uc0Nv",
-            "dW50Ei8uZmxpcHQuYW5hbHl0aWNzLkdldEZsYWdFdmFsdWF0aW9uc0NvdW50",
-            "UmVxdWVzdBowLmZsaXB0LmFuYWx5dGljcy5HZXRGbGFnRXZhbHVhdGlvbnND",
-            "b3VudFJlc3BvbnNlIgBCJ1olZ28uZmxpcHQuaW8vZmxpcHQvcnBjL2ZsaXB0",
-            "L2FuYWx5dGljc2IGcHJvdG8z"));
+            "ChlhbmFseXRpY3MvYW5hbHl0aWNzLnByb3RvEg9mbGlwdC5hbmFseXRpY3Ma",
+            "G2dvb2dsZS9hcGkvdmlzaWJpbGl0eS5wcm90byKEAQoeR2V0RmxhZ0V2YWx1",
+            "YXRpb25zQ291bnRSZXF1ZXN0EiMKDW5hbWVzcGFjZV9rZXkYASABKAlSDG5h",
+            "bWVzcGFjZUtleRIZCghmbGFnX2tleRgCIAEoCVIHZmxhZ0tleRISCgRmcm9t",
+            "GAMgASgJUgRmcm9tEg4KAnRvGAQgASgJUgJ0byJZCh9HZXRGbGFnRXZhbHVh",
+            "dGlvbnNDb3VudFJlc3BvbnNlEh4KCnRpbWVzdGFtcHMYASADKAlSCnRpbWVz",
+            "dGFtcHMSFgoGdmFsdWVzGAIgAygCUgZ2YWx1ZXMyrAEKEEFuYWx5dGljc1Nl",
+            "cnZpY2USfgoXR2V0RmxhZ0V2YWx1YXRpb25zQ291bnQSLy5mbGlwdC5hbmFs",
+            "eXRpY3MuR2V0RmxhZ0V2YWx1YXRpb25zQ291bnRSZXF1ZXN0GjAuZmxpcHQu",
+            "YW5hbHl0aWNzLkdldEZsYWdFdmFsdWF0aW9uc0NvdW50UmVzcG9uc2UiABoY",
+            "+tLkkwISEhBmbGlwdDpzZGs6aWdub3JlQidaJWdvLmZsaXB0LmlvL2ZsaXB0",
+            "L3JwYy9mbGlwdC9hbmFseXRpY3NiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { },
+          new pbr::FileDescriptor[] { global::Google.Api.VisibilityReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Flipt.Analytics.GetFlagEvaluationsCountRequest), global::Flipt.Analytics.GetFlagEvaluationsCountRequest.Parser, new[]{ "NamespaceKey", "FlagKey", "From", "To" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Flipt.Analytics.GetFlagEvaluationsCountResponse), global::Flipt.Analytics.GetFlagEvaluationsCountResponse.Parser, new[]{ "Timestamps", "Values" }, null, null, null, null)
