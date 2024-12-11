@@ -33,9 +33,13 @@ jobs:
           GIT_COMMITTER_EMAIL: dev@flipt.io
           GH_TOKEN: ${{ github.token }}
         run: |
-          git checkout -b "generate/${{ inputs.tag }}"
+          git pull origin main
+          
+          TIMESTAMP=$(date +%Y%m%d-%H%M%S)
+          BRANCH_NAME="generate/${{ inputs.tag }}-${TIMESTAMP}"
+          git checkout -b "${BRANCH_NAME}"
           git add --all .
           git commit -m "feat: updates to protobuf definitions for flipt ${{ inputs.tag }}"
-          git push origin "generate/${{ inputs.tag }}"
+          git push origin "${BRANCH_NAME}"
           gh pr create --title "feat: updates to protobuf definitions for flipt ${{ inputs.tag }}" \
             --body "Upgrading generated client to the protobuf definitions found in Flipt ${{ inputs.tag }}."
