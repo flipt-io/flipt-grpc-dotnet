@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.2.0](https://github.com/flipt-io/flipt-grpc-dotnet/compare/0.1.3...0.2.0) (2024-12-11)
+
+
+### Features
+
+* updates to protobuf definitions for flipt 1.35.0 ([#21](https://github.com/flipt-io/flipt-grpc-dotnet/issues/21)) ([e70063e](https://github.com/flipt-io/flipt-grpc-dotnet/commit/e70063e0ff55c7a94b346151d34b67c788bbce64))
+* updates to protobuf definitions for flipt main ([#14](https://github.com/flipt-io/flipt-grpc-dotnet/issues/14)) ([0d11dde](https://github.com/flipt-io/flipt-grpc-dotnet/commit/0d11dde14379c279a9ff0718ab42d1ca411716ff))
+* updates to protobuf definitions for flipt main ([#27](https://github.com/flipt-io/flipt-grpc-dotnet/issues/27)) ([01f642a](https://github.com/flipt-io/flipt-grpc-dotnet/commit/01f642a307c2dea84a27f6b84db8c320bee7a5b0))
+* updates to protobuf definitions for flipt v1.53.1 ([#52](https://github.com/flipt-io/flipt-grpc-dotnet/issues/52)) ([2ce84be](https://github.com/flipt-io/flipt-grpc-dotnet/commit/2ce84bea9074fbbd67ddf2d72b0fb65d6af7e55b))
+
+
+### Miscellaneous Chores
+
+* release 0.2.0 ([af6d11d](https://github.com/flipt-io/flipt-grpc-dotnet/commit/af6d11d47ee982ae95da7b6b2bd32b10e08749ba))
+
 ## [0.1.3](https://github.com/flipt-io/flipt-grpc-dotnet/compare/0.1.2...0.1.3) (2023-11-15)
 
 
