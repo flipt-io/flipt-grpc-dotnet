@@ -3,6 +3,8 @@ version: v1
 plugins:
   - plugin: buf.build/protocolbuffers/csharp:v23.4
     out: src/Flipt.Grpc
+    opt:
+      - Mgnostic/openapi/v3/annotations.proto=github.com/google/gnostic-models/openapiv3
   - plugin: buf.build/grpc/csharp:v1.56.2
     out: src/Flipt.Grpc
     opt: no_server=true
