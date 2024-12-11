@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/flipt-io/flipt-grpc-dotnet/compare/0.2.0...0.2.1) (2024-12-11)
+
+
+### Bug Fixes
+
+* added missing gnostic definitions ([#55](https://github.com/flipt-io/flipt-grpc-dotnet/issues/55)) ([addc9f2](https://github.com/flipt-io/flipt-grpc-dotnet/commit/addc9f22735f8eeac499e0b8f1a57c6ae28822d4))
+
 ## [0.2.0](https://github.com/flipt-io/flipt-grpc-dotnet/compare/0.1.3...0.2.0) (2024-12-11)
 
 
