@@ -182,9 +182,6 @@ namespace Flipt.Evaluation {
     }
 
   }
-  /// <summary>
-  /// flipt:sdk:ignore
-  /// </summary>
   public static partial class DataService
   {
     static readonly string __ServiceName = "flipt.evaluation.DataService";
