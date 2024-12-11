@@ -24,6 +24,8 @@ jobs:
       - name: Generate
         run: |
           buf generate buf.build/flipt-io/flipt
+          buf generate buf.build/gnostic/gnostic
+          rm  src/Flipt.Grpc/Discovery.cs src/Flipt.Grpc/Openapiv2.cs
 
       - name: Prepare Branch
         env:
@@ -34,7 +36,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           git pull origin main
-          
+
           TIMESTAMP=$(date +%Y%m%d-%H%M%S)
           BRANCH_NAME="generate/${{ inputs.tag }}-${TIMESTAMP}"
           git checkout -b "${BRANCH_NAME}"
