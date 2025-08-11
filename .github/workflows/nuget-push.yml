@@ -18,7 +18,7 @@ jobs:
     name: Build + Push
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Set VERSION variable from tag (Dispatch)
         if: ${{ github.event_name == 'workflow_dispatch' }}
